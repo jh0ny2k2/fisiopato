@@ -78,7 +78,7 @@ function App() {
         <div className="flex items-center justify-between bg-white rounded-xl p-3 sm:p-4 shadow-2xl mb-8 border border-black/10">
           <div className="flex items-center gap-3 sm:gap-4">
             <img src="/Gemini_Generated_Image_imd0krimd0krimd0-removebg-preview.png" alt="" className="h-8 w-8 sm:h-10 sm:w-10 object-contain" />
-            <h1 className="text-2xl sm:text-3xl font-semibold brand-gradient">Fisio Patología UGR</h1>
+            <h1 className="text-2xl sm:text-3xl font-semibold  text-[#22d3ee]">Fisio Patología UGR</h1>
           </div>
           <span className="hidden sm:inline-flex items-center rounded-full bg-gray-100 text-gray-800 text-xs font-semibold px-3 py-1">Quiz</span>
         </div>
@@ -229,22 +229,22 @@ function App() {
                 <div>
                   <div className="mt-2 flex flex-row sm:flex-rwrap sm:flex-ow ite items-centermsm:s-center sm:items-end justify-center gap-6 sm:gap-10 mb-8 sm:mb-12">
                   <div className="relative flex flex-col items-center">
-                      <div className="absolute top-8 sm:top-6 left-1/2 -translate-x-1/2  text-6xl sm:text-8xl font-black text-black/70 z-10 select-none bg-gray-100 py-4 px-18 rounded">2</div>
-                      <div className="relative z-30 mt-24 sm:mt-34 w-[17036] sm:w-[200px] rounded-md bg-red-700 px-4 py-3 text-center shadow">
+                      <div className="absolute top-8 sm:top-6 left-1/2 -translate-x-1/2  text-6xl sm:text-8xl font-black text-black/70 z-10 select-none  rounded">2</div>
+                      <div className="relative z-30 mt-24 sm:mt-34 w-[17036] sm:w-[200px] rounded-md bg-[#22d3ee] px-4 py-3 text-center shadow">
                         <div className="text-sm font-bold uppercase truncate">{top3[1]?.name ?? '—'}</div>
                         <div className="text-[11px] text-red-100">{top3[1] ? `${top3[1].score}/${top3[1].total} · ${top3[1].duration_ms ? Math.round(top3[1].duration_ms/1000) : 0}s` : ''}</div>
                       </div>
                     </div>
                     <div className="relative flex flex-col items-center">
-                      <div className="absolute left-1/2 -translate-x-1/2 text-7xl sm:text-9xl bg-gray-100 py-4 px-20 rounded font-black text-black/70 z-20 select-none  ">1</div>
-                      <div className="relative z-30 mt-20 sm:mt-38 w-[19040] sm:w-[220px] rounded-md bg-red-700 px-5 py-3 text-center shadow">
+                      <div className="absolute left-1/2 -translate-x-1/2 text-7xl sm:text-9xl  rounded font-black text-black/70 z-20 select-none  ">1</div>
+                      <div className="relative z-30 mt-20 sm:mt-38 w-[19040] sm:w-[220px] rounded-md bg-[#22d3ee] px-5 py-3 text-center shadow">
                         <div className="text-sm font-bold uppercase truncate">{top3[0]?.name ?? '—'}</div>
                         <div className="text-[11px] text-red-100">{top3[0] ? `${top3[0].score}/${top3[0].total} · ${top3[0].duration_ms ? Math.round(top3[0].duration_ms/1000) : 0}s` : ''}</div>
                       </div>
                     </div>
                     <div className="relative flex flex-col items-center">
-                      <div className="absolute top-6 sm:top-6 left-1/2 -translate-x-1/2 text-6xl sm:text-8xl font-black text-black/70 z-10 select-none bg-gray-100 py-4 px-17 rounded">3</div>
-                      <div className="relative z-30 mt-24 sm:mt-34 w-[16036] sm:w-[190px] rounded-md bg-red-700 px-4 py-3 text-center shadow">
+                      <div className="absolute top-6 sm:top-6 left-1/2 -translate-x-1/2 text-6xl sm:text-8xl font-black text-black/70 z-10 select-none rounded">3</div>
+                      <div className="relative z-30 mt-24 sm:mt-34 w-[16036] sm:w-[190px] rounded-md bg-[#22d3ee] px-4 py-3 text-center shadow">
                         <div className="text-sm font-bold uppercase truncate">{top3[2]?.name ?? '—'}</div>
                         <div className="text-[11px] text-red-100">{top3[2] ? `${top3[2].score}/${top3[2].total} · ${top3[2].duration_ms ? Math.round(top3[2].duration_ms/1000) : 0}s` : ''}</div>
                       </div>
