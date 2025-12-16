@@ -2,54 +2,63 @@
   {
     "id": 1,
     "type": "multiple",
-    "question": "¿Cuál es el planeta más grande del sistema solar?",
-    "options": ["Tierra", "Júpiter", "Saturno", "Neptuno"],
-    "answer": 1
+    "question": "Además de la memoria, ¿qué otras capacidades mentales analizó este estudio en profundidad?",
+    "options": [
+      "Velocidad de procesamiento y función ejecutiva",
+      "Vocabulario y fluidez verbal",
+      "Ninguna más; solo memoria episódica"
+    ],
+    "answer": 2
   },
   {
     "id": 2,
     "type": "multiple",
-    "question": "¿Qué partícula tiene carga negativa?",
-    "options": ["Protón", "Neutrón", "Electrón", "Quark"],
-    "answer": 2
+    "question": "El estudio define dos \"ventanas críticas\" de edad donde el ejercicio actúa de forma diferente. ¿Cuáles son exactamente esos rangos?",
+    "options": [
+      "Adolescencia (12–18) y madurez (50–60)",
+      "Adultez temprana (18–29) y mediana edad (40–49)",
+      "Veinte (20–30) y jubilación (60–70)"
+    ],
+    "answer": 1
   },
   {
     "id": 3,
     "type": "boolean",
-    "question": "El agua hierve a 100°C al nivel del mar.",
-    "answer": true
+    "question": "¿Este estudio encontró que la diabetes y las enfermedades del corazón eran los culpables principales del vínculo entre falta de ejercicio y mala memoria?",
+    "answer": false
   },
   {
     "id": 4,
-    "type": "multiple",
-    "question": "¿Cuál es la fórmula química del dióxido de carbono?",
-    "options": ["CO2", "H2O", "O2", "NaCl"],
-    "answer": 0
+    "type": "boolean",
+    "question": "Si fuiste sedentario a los 20–30 años, ¿ya es tarde para proteger tu memoria si empiezas a moverte a los 40?",
+    "answer": false
   },
   {
     "id": 5,
     "type": "boolean",
-    "question": "Los virus son células vivas.",
+    "question": "¿El ejercicio realizado en la juventud protege directamente contra el declive de la memoria en la vejez?",
     "answer": false
   },
   {
     "id": 6,
     "type": "multiple",
-    "question": "¿Qué órgano bombea la sangre en el cuerpo humano?",
-    "options": ["Pulmones", "Cerebro", "Hígado", "Corazón"],
-    "answer": 3
+    "question": "¿Qué tipo de memoria específica evaluaron los investigadores?",
+    "options": [
+      "Memoria procedimental",
+      "Memoria episódica",
+      "Memoria visual"
+    ],
+    "answer": 1
   },
   {
     "id": 7,
     "type": "multiple",
-    "question": "¿Qué gas es esencial para la respiración humana?",
-    "options": ["Nitrógeno", "Helio", "Oxígeno", "Dióxido de carbono"],
+    "question": "Según los datos, ¿cómo influye el ejercicio de los 20 años sobre la hipertensión en la vejez?",
+    "options": [
+      "La previene de por vida aunque dejes de entrenar",
+      "No tiene ningún efecto sobre la tensión",
+      "Solo la previene si el hábito se mantiene hasta los 40"
+    ],
     "answer": 2
-  },
-  {
-    "id": 8,
-    "type": "boolean",
-    "question": "La velocidad de la luz es mayor que la del sonido.",
-    "answer": true
   }
 ]
